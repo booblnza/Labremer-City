@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Labremer City - Home</title>
+	<link rel="icon" type="image/png" href="players/fg_-_Copy_-_Copy-nrtX6hxXP-transformed.png">
+	<style>
+		/* Your CSS styles go here */
+		body {
+			font-family: Verdana, Tahoma, sans-serif;
+			background-image: url(pic/ngr.jpg);
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #DFBE99;
+			color: #000000;
+			padding: 10px;
+			text-align: center;
+		}
+		nav {
+			background-color:#641a59 ;
+			padding: 10px;
+		}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		nav li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+	</style>
+	<body>
+		<a href="lc1.html"><img src="players/fg_-_Copy_-_Copy-transformed.png" alt="Image" id="image-layer" height="95" width="85"></a>
+	</body>
+	<style>
+		nav a {
+			display: block;
+			padding: 5px;
+			color: #858585;
+			text-decoration: none;
+		}
+		nav a:hover {
+			background-color: #DFBE99;
+		}
+		section {
+			margin: 10px;
+			padding: 10px;
+			
+		}
+		footer {
+			background-color: #363636;
+			color: #ffffff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+	<body>
+		<a href="lc1.html"><img src="players/fg_-_Copy_-_Copy-transformed.png" alt="Image" id="image-layer" height="95" width="85"></a>
+	</body>
+	<style>
+		#image-layer {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>LABREMER CITY - نـادي لابــريمـار لكـرة الـقـدم</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="lc2.html"><b>Squad</b></a></li>
+			<li><a href="about.html"><b>About</b></a></li>
+			<li><a href="contact.html"><b>Contact</b></a></li>
+		</ul>
+	</nav>
+	<section>
+		<!-- Your content goes here -->
+		
+			<h2>NEXT MATCH !:</h2>
+			<h4><p>المباراة القادمة ستكون ضد فريق "عبدو حماد" في ملعب افصيل ابتداءا من الساعة السادسة مساءا من يوم الاثنين القادم</p></h4>
+
+
+                 <video src="players/km_20230319_1080p.mp4" width="1000" controls ></video>
+
+
+			<!DOCTYPE html>
+			<html>
+			<head>
+				
+				<script>
+					function countdown() {
+						var now = new Date();
+						var eventDate = new Date("March 20, 2023 18:00:00");
+						var currentTime = now.getTime();
+						var eventTime = eventDate.getTime();
+						var remainingTime = eventTime - currentTime;
+			
+						var seconds = Math.floor(remainingTime / 1000);
+						var minutes = Math.floor(seconds / 60);
+						var hours = Math.floor(minutes / 60);
+						var days = Math.floor(hours / 24);
+			
+						hours %= 24;
+						minutes %= 60;
+						seconds %= 60;
+			
+						document.getElementById("days").innerHTML = days;
+						document.getElementById("hours").innerHTML = hours;
+						document.getElementById("minutes").innerHTML = minutes;
+						document.getElementById("seconds").innerHTML = seconds;
+			
+						setTimeout(countdown, 1000);
+					}
+				</script>
+			</head>
+			<body onload="countdown()">
+				<h1>LABREMER CITY vs Abdou Hm Team</h1>
+				<div>
+					<span id="days"></span> Days
+					<span id="hours"></span> Hours
+					<span id="minutes"></span> Minutes
+					<span id="seconds"></span> Seconds
+				</div>
+			</body>
+			</html>
+			
+
+	
+
+	</section>
+	<footer>
+		<p>Copyright &copy; 2023</p>
+	</footer>
+</body>
+</html>
